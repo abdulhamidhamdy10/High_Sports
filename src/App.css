@@ -1,0 +1,3453 @@
+* {
+  padding: 0;
+  margin: 0px;
+}
+
+body {
+  background-color: #ECF0F1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+
+/* Navbar  */
+
+
+#banner {
+  background-color: rgb(0, 162, 255);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 50px;
+  border-top: 4px rgb(0, 0, 0) solid;
+
+}
+
+
+
+
+#banner span {
+  font-size: 26px;
+  padding: 20px 0;
+}
+
+#banner .high {
+  font-weight: 800;
+}
+
+#banner .sports {
+  font-weight: 500;
+}
+
+#banner .com {
+  font-weight: 500;
+}
+
+.navbar {
+  background-color: black;
+  padding: 15px 30px;
+  position: fixed;
+  top: 45px;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 5px rgb(0, 162, 255) solid;
+}
+
+/* .navbar .home .target span form {
+color: white;
+margin-right: 50px;
+} */
+.navbar .home ul {
+  color: white;
+}
+
+.navbar .home ul:hover {
+  color: rgb(0, 162, 255);
+}
+
+.navbar .home ul h6 {
+  padding-left: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.navbar .home ul h6:hover {
+  color: rgb(0, 162, 255);
+}
+
+.navbar .home img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.2s;
+}
+
+.navbar .home img:hover {
+  width: 50px;
+  height: 50px;
+  transform: scale(1.2);
+}
+
+.navbar .home span {
+  color: white;
+}
+
+.navbar .home form span h6 {
+  color: white;
+  transition: transform 0.1s;
+}
+
+.navbar .home form span h6:hover {
+  border-radius: 50%;
+  color: rgb(0, 162, 255);
+  transform: scale(1.4);
+}
+
+
+
+@media only screen and (max-width:720px) {
+
+
+  .navbar {
+    background-color: black;
+    padding: 15px 0px;
+  }
+
+  .navbar .home ul {
+    margin-top: 20px;
+  }
+
+  .navbar .home form {
+    text-align: center;
+  }
+
+  .navbar .home ul h6 {
+    width: 43%;
+
+  }
+}
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+
+/* Footer  */
+
+.footer {
+  background-color: rgb(20, 20, 20);
+  padding-bottom: 30px;
+}
+
+.footer .containerone .rowone h5 {
+  color: white;
+  font-weight: 600;
+}
+
+.footer .containerone .rowone h6 {
+  color: rgb(186, 182, 182);
+  line-height: 30px;
+}
+
+.footer .containerone .rowone h3 {
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.footer .containerone .rowtwo .colone {
+  text-align: right;
+  margin-top: 40px;
+}
+
+.footer .containerone .rowtwo .colone img {
+  margin: 0px 20px;
+  padding: 15px;
+  width: 90px;
+  height: 70px;
+  display: inline-block;
+  margin-right: auto;
+  border: 2px white solid;
+}
+
+.footer hr {
+  background-color: aliceblue;
+  padding: 2px 0;
+  margin-bottom: 20px;
+}
+
+.footer .containertwo {
+  padding: 0 30px;
+}
+
+.footer .containertwo .rowone .colone {
+  margin-top: 20px;
+}
+
+.footer .containertwo .rowone .colone span {
+  margin-left: 40px;
+  color: white;
+  font-size: 25px;
+}
+
+.footer .containertwo .rowone .coltwo {
+  display: flex;
+  border: 1px rgb(106, 105, 105) solid;
+  width: 15%;
+  margin: auto;
+}
+
+.footer .containertwo .rowone .coltwo:hover {
+  border: 1px rgb(255, 255, 255) solid;
+
+}
+
+.footer .containertwo .rowone .coltwo img {
+  width: 55px;
+  height: 40px;
+  margin: 10px 0;
+}
+
+.footer .containertwo .rowone .coltwo h1 {
+  color: white;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.footer .containertwo .rowone .colthree h6 {
+  color: rgb(154, 153, 153);
+  text-align: right;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.footer .containertwo .rowone .colthree h5 {
+  text-decoration: underline;
+  color: rgb(154, 153, 153);
+  text-align: right;
+  font-size: 12px;
+}
+
+
+@media only screen and (max-width:720px) {
+
+  .footer .containerone .rowone  {
+    margin-top: 10px;
+    margin-bottom: 4;
+  }
+  .footer .containerone .rowone .colone {
+    margin-top: 40px;
+  }
+
+  .footer .containerone .rowone .coltwo {
+    margin-top: 40px;
+  }
+
+  .footer .containerone .rowone .colthree {
+    margin-top: 40px;
+  }
+
+  .footer .containerone .rowone .colfour {
+    margin-top: 80px;
+  }
+
+
+  .footer .containertwo .rowone .colone {
+    text-align: center;
+  }
+
+  .footer .containertwo .rowone .coltwo {
+    display: flex;
+    border: 1px rgb(106, 105, 105) solid;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+
+
+
+  .footer .containertwo .rowone .colthree h6 {
+    text-align: center;
+  }
+
+  .footer .containertwo .rowone .colthree h5 {
+    text-align: center;
+  }
+
+
+  .footer .containerone .rowtwo .colone {
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* Homepage  */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+
+/* headhome  */
+
+.headhome .containerone .rowone {
+  background-image: url("../public/images/home/headome/Untitled-1.jpg");
+
+}
+
+.headhome .containerone .rowone .colone {
+  text-align: center;
+  margin: 250px 0;
+  color: white;
+}
+
+.headhome .containerone .rowone .colone h1 {
+  font-weight: 700;
+  font-size: 90px;
+}
+
+.headhome .containerone .rowone .colone h4 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+
+@media only screen and (max-width:720px) {
+  .headhome .containerone .rowone .colone h1 {
+    font-weight: 700;
+    font-size: 50px;
+  }
+
+  .headhome .containerone .rowone .colone h4 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+}
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* bodyhome  */
+
+
+.bodyhome {
+  margin-top: 100px;
+
+}
+
+.bodyhome .containerone {
+  background-image: url("../public/images/home/bodyhome/basket.jpg");
+  color: white;
+  background-size: cover;
+
+}
+
+.bodyhome .containerone .rowone h1 {
+  color: white;
+  font-weight: 700;
+  margin: 150px 0;
+  text-align: center;
+
+}
+
+.bodyhome .containerone .rowtwo {
+  padding-bottom: 200px;
+}
+
+.bodyhome .containerone .rowtwo h1 {
+  font-weight: 700;
+  margin: 150px 0;
+  text-align: center;
+  margin: auto;
+}
+
+@media only screen and (max-width:720px) {
+  .bodyhome .containerone .rowtwo h1 {
+    font-weight: 700;
+    margin: 150px 0;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+}
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* sectionhome  */
+
+.sectionhome .containerone .rowone .colone {
+  margin-top: 30px;
+}
+
+.sectionhome .containerone .rowone .colone h4 {
+  color: rgb(0, 162, 255);
+  margin-bottom: 10px;
+
+}
+
+.sectionhome .containerone .rowone .colone h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.sectionhome .containerone .rowone .colone h6 {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.sectionhome .containerone .rowone .colone button {
+  background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+  border-radius: 30px;
+  margin-top: 20px;
+  font-weight: 600;
+  padding: 5px 10px;
+  color: white;
+}
+
+.sectionhome .containerone .rowone .colone button:hover {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 162, 255));
+  ;
+}
+
+
+.sectionhome .containerone .rowone .coltwo img {
+  height: 400px;
+  width: 700px;
+}
+
+@media only screen and (max-width:720px) {
+  .sectionhome .containerone .rowone .colone h1 {
+    font-size: 45px;
+  }
+
+  .sectionhome .containerone .rowone .colone button {
+    margin-bottom: 20px;
+  }
+
+  .sectionhome .containerone .rowone .coltwo img {
+    height: 300px;
+    width: 470px;
+  }
+
+  .sectionhome .containerone .rowone .colone {
+    text-align: center;
+  }
+
+  .sectionhome .containerone .rowone .colone h6 {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* mainhome  */
+
+.mainhome .containerone .rowone .colone h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 40px;
+
+}
+
+.mainhome .containerone .rowtwo img {
+  height: 170px;
+  margin-bottom: 20px;
+}
+
+.mainhome .containerone .rowtwo h6 {
+  font-weight: 200;
+  color: rgb(81, 81, 81);
+  width: 90%;
+}
+
+.mainhome .containerone .rowtwo h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width:720px) {
+  .mainhome .containerone .rowtwo h3 {
+    margin-bottom: 80px;
+  }
+
+  .mainhome .containerone .rowtwo img {
+    height: 290px;
+    margin-bottom: 20px;
+  }
+}
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* finalhome  */
+
+
+.finalhome .containerone .rowone {
+  background-color: black;
+  padding: 50px 80px;
+  width: 90%;
+}
+
+.finalhome .containerone .rowone .colone img {
+  box-shadow: #ECF0F1 -20px 20px 0px 3px;
+  border: 2px white solid;
+  width: 200px;
+  height: 250px;
+}
+
+.finalhome .containerone .rowone .coltwo h3 {
+  color: white;
+  width: 85%;
+  line-height: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.finalhome .containerone .rowone .coltwo b {
+  color: rgb(0, 162, 255);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+.finalhome .containerone .rowtwo .colone {
+  background-color: rgb(0, 162, 255);
+  text-align: center;
+  width: 25%;
+  margin-left: 1000px;
+  margin-top: -320px;
+}
+
+.finalhome .containerone .rowtwo .colone h1 {
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.finalhome .containerone .rowtwo .colone h4 {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 30px;
+
+}
+
+@media only screen and (max-width:720px) {
+
+
+
+  .finalhome .containerone .rowone {
+    padding: 30px 10px;
+    padding-bottom: 150px;
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .finalhome .containerone .rowone .colone img {
+    margin-bottom: 50px;
+    margin-left: 100px;
+  }
+
+  .finalhome .containerone .rowone .coltwo h3 {
+    color: white;
+    width: 100%;
+    line-height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  .finalhome .containerone .rowtwo .colone {
+    background-color: rgb(0, 162, 255);
+    text-align: center;
+    width: 50%;
+    margin-left: 125px;
+    margin-top: -100px;
+  }
+}
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ClubKitspage  */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+
+.allclubkitspage {
+  background-color: white;
+}
+
+
+/* headclubkits  */
+.headclubkits h4 {
+  font-weight: 500;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(0, 162, 255);
+  text-align: center;
+
+}
+
+.headclubkits h1 {
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.headclubkits .containerone {
+  background-color: #dbdbdb;
+  width: 97%;
+}
+
+.headclubkits .containerone .rowone {
+  width: 90%;
+  margin: auto;
+}
+
+.headclubkits .containerone .rowone .colone {
+  margin-top: 100px;
+  color: rgb(8, 8, 36);
+}
+
+.headclubkits .containerone .rowone .colone h3 {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.headclubkits .containerone .rowone .colone h6 {
+  line-height: 26px;
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.headclubkits .containerone .rowone .colone button {
+  margin-left: 10px;
+  background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+  color: white;
+  padding: 5px 20px;
+  border: 0px;
+  border-radius: 30px;
+}
+
+.headclubkits .containerone .rowone .colone button:hover {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 162, 255));
+}
+
+
+.headclubkits .containerone .rowone .coltwo img {
+  height: 500px;
+  margin-top: 50px;
+  margin-bottom: -50px;
+
+}
+
+
+@media only screen and (max-width:720px) {
+  .headclubkits h4 {
+    font-size: 30px;
+  }
+
+  .headclubkits h1 {
+    font-size: 40px;
+  }
+
+
+  .headclubkits .containerone .rowone .colone h6 {
+    line-height: 26px;
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .headclubkits .containerone .rowone .colone button {
+    margin-left: 0px;
+  }
+
+
+  .headclubkits .containerone .rowone .coltwo img {
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+
+  }
+}
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* bodyclubkits  */
+
+.bodyclubkits .containerone .rowone h1 {
+  font-weight: 600;
+  font-size: 25px;
+  color: rgb(8, 8, 36);
+}
+
+.bodyclubkits .containerone .rowone hr {
+  padding: 5px 0;
+  width: 10%;
+  background-color: rgb(0, 162, 255);
+}
+
+@media only screen and (max-width:720px) {
+
+  .bodyclubkits .containerone .rowone h1 {
+    font-size: 15px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+
+  }
+
+  .bodyclubkits .containerone .rowone hr {
+    padding: 5px 0;
+    width: 10%;
+    background-color: rgb(0, 162, 255);
+    margin-left: 205px;
+    margin-bottom: -2px;
+  }
+}
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* sectionclubkits  */
+
+.sectionclubkits .containerone {
+  border: 1px rgb(215, 215, 215) solid;
+}
+
+.sectionclubkits .containerone .rowone .colone img {
+  margin-left: -12px;
+}
+
+.sectionclubkits .containerone .rowone .coltwo hr {
+  padding: 5px 0;
+  background-color: rgb(0, 162, 255);
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+.sectionclubkits .containerone .rowone .coltwo {
+  /* width: 50%; */
+}
+
+.sectionclubkits .containerone .rowone .coltwo h4 {
+  color: rgb(0, 162, 255);
+  margin-bottom: 20px;
+}
+
+.sectionclubkits .containerone .rowone .coltwo h1 {
+  color: rgb(8, 8, 36);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.sectionclubkits .containerone .rowone .coltwo ul li {
+  line-height: 30px;
+}
+
+@media only screen and (max-width:720px) {
+
+  .sectionclubkits .containerone .rowone .colone img {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .sectionclubkits .containerone .rowone .coltwo hr {
+    padding: 5px 0;
+
+    width: 80%;
+    margin: auto;
+    margin-top: -275px;
+    margin-bottom: 300px;
+  }
+}
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* mainlubkits  */
+
+
+.mainclubkits .containerone .rowone {
+  padding-top: 20px;
+}
+
+.mainclubkits .containerone .rowone .colone h4 {
+  color: rgb(0, 162, 255);
+  margin-bottom: 10px;
+}
+
+.mainclubkits .containerone .rowone .colone h1 {
+  color: rgb(8, 8, 36);
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+
+}
+
+.mainclubkits .containerone .rowone .colone h6 {
+  width: 80%;
+  font-weight: 200;
+  line-height: 25px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.mainclubkits .containerone .rowone .colone button {
+  margin-left: 10px;
+  background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+  color: white;
+  padding: 5px 20px;
+  border: 0px;
+  border-radius: 30px;
+
+}
+
+.mainclubkits .containerone .rowone .colone button:hover {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 162, 255));
+}
+
+
+.mainclubkits .containerone .rowone .coltwo img {
+  height: 500px;
+  width: 700px;
+}
+
+@media only screen and (max-width:720px) {
+
+  .mainclubkits .containerone .rowone .colone h1 {
+    font-size: 30px;
+  }
+
+  .mainclubkits .containerone .rowone .colone h6 {
+    width: 100%;
+  }
+
+  .mainclubkits .containerone .rowone .colone button {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  .mainclubkits .containerone .rowone .coltwo img {
+    height: 300px;
+    width: 460px;
+  }
+
+}
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* Lasterclubkits  */
+
+.lasterclubkits .containerone .rowone .colone h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(8, 8, 36);
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.lasterclubkits .containerone .rowone .colone h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(8, 8, 36);
+  line-height: 30px;
+  margin-bottom: 20px;
+  width: 82%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lasterclubkits .containerone .rowone .colone h6 {
+  font-weight: 500;
+  line-height: 25px;
+  width: 82%;
+
+}
+
+.lasterclubkits .containerone .rowone .coltwo {
+  border: 1px black solid;
+}
+
+.lasterclubkits .containerone .rowone .coltwo hr {
+  padding: 5px 0;
+  background-color: rgb(0, 162, 255);
+  width: 80%;
+  margin: auto;
+
+}
+
+.lasterclubkits .containerone .rowone .coltwo {
+  width: 23%;
+}
+
+.lasterclubkits .containerone .rowone .coltwo h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.lasterclubkits .containerone .rowone .coltwo h5 {
+  margin-bottom: 30px;
+}
+
+.lasterclubkits .containerone .rowone .coltwo button {
+  text-align: center;
+  margin-left: 30px;
+  padding: 5px 15px;
+  border: 0px;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+  color: white;
+}
+
+.lasterclubkits .containerone .rowone .coltwo button:hover {
+
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 162, 255));
+}
+
+.lasterclubkits .containerone .rowone .colthree {
+  margin-top: 40px;
+  width: 60%;
+}
+
+.lasterclubkits .containerone .rowone .colthree h3 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.lasterclubkits .containerone .rowone .colthree h6 {
+  font-weight: 500;
+  line-height: 25px;
+}
+
+@media only screen and (max-width:720px) {
+
+  .lasterclubkits .containerone .rowone .colone h5 {
+    width: 100%;
+  }
+
+  .lasterclubkits .containerone .rowone .colone h6 {
+    width: 100%;
+  }
+
+  .lasterclubkits .containerone .rowone .coltwo {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+
+  }
+
+  .lasterclubkits .containerone .rowone .coltwo button {
+    margin-bottom: 30px;
+    margin-left: 0px;
+
+  }
+
+  .lasterclubkits .containerone .rowone .colthree {
+    width: 100%;
+  }
+
+}
+
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* finalClubkits  */
+
+
+
+.finalClubkits {
+  padding-top: 100px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  
+  margin-bottom: 80px;
+}
+
+.finalClubkits .mySwiper {
+
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border: 2px black solid;
+  width: 80%;
+}
+
+.finalClubkits .mySwiper img{
+ margin-top: 50px;
+}
+
+
+.finalClubkits .address {
+  background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+  padding: 10px 20px;
+  margin-left: 690px;
+  margin-top: -200px;
+  margin-bottom: 50px;
+  color: white;
+  border: 0px;
+}
+
+.finalClubkits .address:hover {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 162, 255));
+}
+
+.finalClubkits .control {
+  background-color: rgb(0, 162, 255);
+  padding: 30px;
+  font-size: 10px;
+  border-radius: 50%;
+  color: black;
+}
+
+@media only screen and (max-width:720px) {
+  .finalClubkits {
+    padding-top: 100px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 100px;
+  }
+
+  .finalClubkits .mySwiper {
+    padding-bottom: 100px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border: 2px black solid;
+    width: 90%;
+  }
+
+  .finalClubkits .mySwiper img{
+    margin-top: 50px;
+    width: 150px ;
+    height: 180px;
+    margin-right: 50px;
+   }
+  .finalClubkits .mySwiper .content{
+    
+    margin-right: 50px;
+   }
+
+  
+
+  .finalClubkits .address {
+    margin-left: 175px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 80px;
+  }
+
+  .finalClubkits .address:hover {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 162, 255));
+  }
+
+  .finalClubkits .control {
+    background-color: rgb(0, 162, 255);
+    padding: 30px;
+    margin-top: -70px;
+    font-size: 10px;
+    border-radius: 50%;
+    color: black;
+  }
+}
+
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* Sportsshoespages  */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+
+
+/* homesportsshoes  */
+.homesportsshoes {
+  background-color: rgb(205, 205, 205);
+  padding: 160px 0;
+}
+
+.homesportsshoes .containerone .rowone .colone {
+  margin-top: 30px;
+}
+
+.homesportsshoes .containerone .rowone .colone h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.homesportsshoes .containerone .rowone .colone hr {
+  padding: 2px 0;
+  background-color: rgb(0, 162, 255);
+  width: 10%;
+}
+
+.homesportsshoes .containerone .rowone .colone button {
+  margin-top: 30px;
+  padding: 20px 50px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 0px;
+  background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+  color: white;
+}
+
+.homesportsshoes .containerone .rowone .colone button:hover {
+
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 162, 255));
+}
+
+
+.homesportsshoes .containerone .rowone .coltwo img {
+  margin-left: 1px;
+}
+
+@media only screen and (max-width:720px) {
+
+  .homesportsshoes .containerone {
+    padding-bottom: 100px;
+    padding-top: 150px;
+  }
+
+  .homesportsshoes .containerone .rowone .colone {
+    margin-bottom: -300px;
+    margin-left: 30px;
+  }
+
+  .homesportsshoes .containerone .rowone .coltwo img {
+    margin-top: -300px;
+  }
+
+
+}
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* bodysportsshoes  */
+.bodysportsshoes img {
+  height: 650px;
+}
+
+.bodysportsshoes .containerone .rowone .colone {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.bodysportsshoes .containerone .rowone .colone h1 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.bodysportsshoes .containerone .rowone .colone h5 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.bodysportsshoes .containerone .rowone .colone button {
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+  color: white;
+  border: 0px;
+}
+
+.bodysportsshoes .containerone .rowone .colone button:hover {
+
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 162, 255));
+}
+
+
+
+@media only screen and (max-width:720px) {
+  .bodysportsshoes img {
+    height: 450px;
+  }
+
+}
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* sectiosportsshoes  */
+
+
+.sectionsportsshoes .containerone .rowone h3 {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.sectionsportsshoes .containerone .rowone img {
+  height: 360px;
+
+}
+
+
+@media only screen and (max-width:720px) {
+  .sectionsportsshoes .containerone .rowone h3 {
+
+    margin-bottom: 80px;
+  }
+
+
+}
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* mainsportsshoes  */
+
+.mainsportsshoes .containerone .rowone .colone h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: rgb(0, 162, 255);
+
+}
+
+.mainsportsshoes .containerone .rowone .colone h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: rgb(8, 8, 36);
+
+}
+
+.mainsportsshoes .containerone .rowone .colone h6 {
+  width: 77%;
+  line-height: 25px;
+  font-size: 14px;
+  color: rgb(103, 103, 103);
+}
+
+.mainsportsshoes .containerone .rowone .colone button {
+  border-radius: 30px;
+  padding: 5px 15px;
+  margin-top: 20px;
+  color: white;
+  background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+  border: 0px;
+}
+
+.mainsportsshoes .containerone .rowone .coltwo img {
+  height: 200px;
+  width: 350px;
+}
+
+.mainsportsshoes .containerone .rowone .coltwo h1 {
+  font-size: 30px;
+  font-weight: 700;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.mainsportsshoes .containerone .rowone .coltwo h6 {
+  width: 77%;
+  line-height: 25px;
+  font-size: 14px;
+  color: rgb(103, 103, 103);
+
+}
+
+.mainsportsshoes .containerone .rowone .coltwo hr {
+  padding: 2px 0;
+  width: 10%;
+  background-color: rgb(0, 162, 255);
+  transition: tranform 0.3s;
+}
+
+.mainsportsshoes .containerone .rowone .colthree .rowone .colone img {
+  height: 100px;
+}
+
+.mainsportsshoes .containerone .rowone .colthree .rowone .coltwo h4 {
+  font-size: 17px;
+  margin-bottom: 5px;
+  color: rgb(0, 162, 255);
+  font-weight: 700;
+
+}
+
+.mainsportsshoes .containerone .rowone .colthree .rowone .coltwo h1 {
+  font-size: 25px;
+  width: 100%;
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width:720px) {
+  .mainsportsshoes .containerone .rowone .colone h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .mainsportsshoes .containerone .rowone .colone h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: rgb(8, 8, 36);
+    text-align: center;
+
+
+  }
+
+  .mainsportsshoes .containerone .rowone .colone h6 {
+
+    text-align: center;
+    width: 100%;
+  }
+
+  .mainsportsshoes .containerone .rowone .colone button {
+    margin-left: 170px;
+    margin-bottom: 40px;
+  }
+
+  .mainsportsshoes .containerone .rowone .coltwo img {
+    height: 300px;
+    width: 470px;
+  }
+
+  .mainsportsshoes .containerone .rowone .coltwo h1 {
+    width: 100%;
+  }
+
+  .mainsportsshoes .containerone .rowone .coltwo h6 {
+    width: 100%;
+
+
+  }
+
+  .mainsportsshoes .containerone .rowone .coltwo hr {
+    margin-bottom: 80px;
+  }
+
+  .mainsportsshoes .containerone .rowone .colthree .rowone .colone img {
+    height: 300px;
+  }
+
+  .mainsportsshoes .containerone .rowone .colthree .rowone .coltwo h4 {
+    font-size: 17px;
+    margin-bottom: 0px;
+    color: rgb(0, 162, 255);
+    font-weight: 700;
+    margin-top: 20px;
+
+  }
+
+  .mainsportsshoes .containerone .rowone .colthree .rowone .coltwo h1 {
+    font-size: 25px;
+    width: 100%;
+    font-weight: 600;
+  }
+
+
+}
+
+
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* finalsportsshoes  */
+
+
+.finalsportsshoes {
+  padding-top: 100px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 100px;
+
+}
+
+.finalsportsshoes .mySwiper {
+  /* padding-bottom: 100px; */
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border: 2px black solid;
+
+  width: 80%;
+
+}
+
+
+.finalsportsshoes .imgone {
+  margin-right: 370px;
+  margin-top: 130px;
+}
+
+.finalsportsshoes .imgtwo {
+  margin-right: 370px;
+}
+
+.finalsportsshoes .imgthree {
+  margin-right: 370px;
+  margin-top: 60px;
+
+}
+
+.finalsportsshoes .imgfour {
+  margin-right: 370px;
+  margin-top: 120px;
+
+}
+
+.finalsportsshoes .imgfive {
+  margin-right: 370px;
+  margin-top: -100px;
+
+}
+
+.finalsportsshoes .imgsix {
+  margin-right: 370px;
+
+}
+
+.finalsportsshoes .imgseven {
+  margin-right: 370px;
+  margin-top: 70px;
+
+}
+
+.finalsportsshoes .imgeight {
+  margin-right: 370px;
+  margin-top: 60px;
+
+}
+
+.finalsportsshoes .imgnine {
+  margin-right: 370px;
+  margin-top: 80px;
+
+}
+
+.finalsportsshoes .imgten {
+  margin-right: 370px;
+  margin-top: 70px;
+
+}
+
+.finalsportsshoes .imgeleven {
+  margin-right: 370px;
+  margin-top: -50px;
+
+}
+
+.finalsportsshoes .imgtewelv {
+  margin-right: 370px;
+}
+
+
+
+
+.finalsportsshoes .address {
+  background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+  padding: 10px 20px;
+  margin-left: 690px;
+  margin-top: -200px;
+  margin-bottom: 50px;
+  color: white;
+  border: 0px;
+}
+
+.finalsportsshoes .address:hover {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 162, 255));
+}
+
+.finalsportsshoes .control {
+  background-color: rgb(0, 162, 255);
+  padding: 30px;
+  font-size: 10px;
+  border-radius: 50%;
+  color: black;
+}
+
+
+@media only screen and (max-width:720px) {
+
+  .finalsportsshoes {
+    padding-top: 100px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 100px;
+
+  }
+
+  .finalsportsshoes .mySwiper {
+    padding-bottom: 40px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border: 2px black solid;
+
+    width: 90%;
+
+  }
+
+
+  .finalsportsshoes .imgone {
+    margin-top: 30px;
+  }
+
+  .finalsportsshoes .imgthree {
+    margin-right: 370px;
+    margin-top: 20px;
+
+  }
+
+  .finalsportsshoes .imgfour {
+    margin-right: 370px;
+    margin-top: 50px;
+
+  }
+
+  .finalsportsshoes .imgfive {
+    margin-right: 370px;
+    margin-top: -16px;
+
+  }
+
+  .finalsportsshoes .imgsix {
+    margin-right: 370px;
+    margin-top: 13px;
+
+  }
+
+  .finalsportsshoes .imgseven {
+    margin-right: 370px;
+    margin-top: 40px;
+
+  }
+
+  .finalsportsshoes .imgeight {
+    margin-right: 370px;
+    margin-top: 20px;
+
+  }
+
+  .finalsportsshoes .imgnine {
+    margin-right: 370px;
+    margin-top: 30px;
+
+  }
+
+  .finalsportsshoes .imgten {
+    margin-right: 370px;
+    margin-top: 35px;
+
+  }
+
+  .finalsportsshoes .imgeleven {
+    margin-right: 370px;
+    margin-top: -9px;
+
+  }
+
+  .finalsportsshoes .imgtewelv {
+    margin-right: 370px;
+    margin-top: 8px;
+  }
+
+
+
+  .finalsportsshoes .address {
+    margin-left: 175px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 80px;
+  }
+
+  .finalsportsshoes .address:hover {
+
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 162, 255));
+    transform: scale(1.1);
+  }
+
+  .finalsportsshoes .control {
+    background-color: rgb(0, 162, 255);
+    padding: 30px;
+    margin-top: -70px;
+    font-size: 10px;
+    border-radius: 50%;
+    color: black;
+  }
+
+}
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* Sportsclothespages  */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+
+.Allsportsaccessoriespages {
+  background-image: url("../public/images/sportsaccessoires/SD_160_ArmBands_Lifestyle3_2000x.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* headsportsclothes  */
+
+.headsportsclothes .containerone .rowone .colone img {
+  height: 480px;
+  width: 878px;
+}
+
+.headsportsclothes .containerone .rowone .colone img {
+  height: 480px;
+  width: 878px;
+}
+
+.headsportsclothes .containerone .rowone .coltwo {
+  text-align: center;
+  margin-top: 30px;
+  background-color: rgb(29, 29, 29);
+  padding: 130px 0;
+  height: 480px;
+  margin-top: -0px;
+}
+
+.headsportsclothes .containerone .rowone .coltwo h1 {
+  margin-bottom: 40px;
+  border: 3px rgb(0, 162, 255) solid;
+  width: 60%;
+  background-color: rgb(0, 162, 255);
+  margin-left: 130px;
+}
+
+.headsportsclothes .containerone .rowone .coltwo h1 .spanone {
+  padding-left: -160px;
+
+  color: white;
+}
+
+.headsportsclothes .containerone .rowone .coltwo h1 .spantwo {
+  color: rgb(0, 162, 255);
+  background-color: rgb(29, 29, 29);
+  margin-right: -10px;
+}
+
+.headsportsclothes .containerone .rowone .coltwo h5 {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.headsportsclothes .containerone .rowone .coltwo button {
+  color: white;
+  background-color: rgb(29, 29, 29);
+  padding: 5px 20px;
+  border: 2px rgba(0, 162, 255) solid;
+}
+
+.headsportsclothes .containerone .rowone .coltwo button:hover {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 162, 255));
+
+}
+
+
+@media only screen and (max-width:720px) {
+
+  .headsportsclothes .containerone .rowone .colone img {
+    height: 280px;
+    width: 482px;
+    margin-left: -11px;
+  }
+
+  .headsportsclothes .containerone .rowone .coltwo h1 {
+    margin-left: 100px;
+  }
+
+  .headsportsclothes .containerone .rowone .coltwo h5 {
+    padding: 0px 30px;
+  }
+
+
+}
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* bodysportsclothes  */
+
+.bodysportsclothes .containerone .rowone .colone .card img {
+  height: 400px;
+}
+
+.bodysportsclothes .containerone .rowone .colone .card .card-body {
+  background-color: black;
+}
+
+.bodysportsclothes .containerone .rowone .colone .card .card-body h3 {
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
+
+.bodysportsclothes .containerone .rowone .coltwo .card img {
+  height: 400px;
+}
+
+.bodysportsclothes .containerone .rowone .coltwo .card .card-body {
+  background-color: black;
+}
+
+.bodysportsclothes .containerone .rowone .coltwo .card .card-body h3 {
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
+
+.bodysportsclothes .containerone .rowone .colthree {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.bodysportsclothes .containerone .rowone .colthree h1 {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.bodysportsclothes .containerone .rowone .colthree h6 {
+  margin: auto;
+  margin-bottom: 30px;
+  width: 80%;
+  font-size: 15px;
+  line-height: 30px;
+
+}
+
+@media only screen and (max-width:720px) {
+
+  .bodysportsclothes .containerone .rowone .colone .card .card-body {
+    background-color: black;
+    margin-bottom: 30px;
+  }
+
+}
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* sectionsportsclothes  */
+
+.sectionsportsclothes .containerone .rowone .colone {
+  background-image: url("../public/images/sportsclothes/sectionsportsclothes/201302_Main_Thumb_0530791.jpg");
+  background-size: cover;
+  transition: transform 0.3s ease;
+}
+
+.sectionsportsclothes .containerone .rowone .colone {
+  text-align: center;
+  border: 1px black solid;
+}
+
+.sectionsportsclothes .containerone .rowone .colone h1 {
+  padding-top: 600px;
+  color: white;
+  font-weight: 700;
+}
+
+.sectionsportsclothes .containerone .rowone .colone button {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 0px;
+}
+
+.sectionsportsclothes .containerone .rowone .colone button:hover {
+  background-color: black;
+  color: white;
+
+}
+
+.sectionsportsclothes .containerone .rowone .coltwo {
+  background-image: url("../public/images/sportsclothes/sectionsportsclothes/nb2491_1_cloudzoom.jpg");
+  background-size: cover;
+}
+
+.sectionsportsclothes .containerone .rowone .coltwo {
+  /* padding:350px 0; */
+  text-align: center;
+  border: 1px black solid;
+}
+
+.sectionsportsclothes .containerone .rowone .coltwo h1 {
+  padding-top: 600px;
+  color: white;
+  font-weight: 700;
+}
+
+.sectionsportsclothes .containerone .rowone .coltwo button {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 0px;
+}
+
+.sectionsportsclothes .containerone .rowone .coltwo button:hover {
+  background-color: black;
+  color: white;
+
+}
+
+
+
+@media only screen and (max-width:720px) {
+
+  .sectionsportsclothes .containerone .rowone .colone {
+    background-image: url("../public/images/sportsclothes/sectionsportsclothes/201302_Main_Thumb_0530791.jpg");
+    background-size: cover;
+    transition: transform 0.3s ease;
+    background-position: center center;
+    height: 430px;
+    margin-bottom: 30px;
+  }
+
+  .sectionsportsclothes .containerone .rowone .colone h1 {
+    padding-top: 300px;
+
+  }
+
+
+  .sectionsportsclothes .containerone .rowone .coltwo {
+    background-image: url("../public/images/sportsclothes/sectionsportsclothes/nb2491_1_cloudzoom.jpg");
+    background-size: cover;
+    transition: transform 0.3s ease;
+    background-position: center center;
+    height: 430px;
+    margin-bottom: 30px;
+  }
+
+  .sectionsportsclothes .containerone .rowone .coltwo h1 {
+    padding-top: 300px;
+    color: white;
+    font-weight: 700;
+  }
+
+
+
+}
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* mainsportsclothes  */
+
+.mainsportsclothes .containerone h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.mainsportsclothes .containerone h4 {
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 10px;
+  font-size: 18px;
+
+}
+
+.mainsportsclothes .containerone .rowone img {
+  margin-bottom: 50px;
+  margin-left: 50px;
+  height: 150px;
+  width: 200px;
+}
+
+.mainsportsclothes .containerone .rowone button {
+  margin-left: 80px;
+  padding: 10px 20px;
+
+}
+
+.mainsportsclothes .containerone .rowone button:hover {
+  background-color: black;
+  color: white;
+}
+
+
+@media only screen and (max-width:720px) {
+
+
+  .mainsportsclothes .containerone .rowone img {
+    margin-left: 135px;
+
+  }
+
+  .mainsportsclothes .containerone .rowone button {
+
+    margin-left: 165px;
+    margin-top: -20px;
+    margin-bottom: 130px;
+
+  }
+
+
+
+
+}
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* lastersportsclothes  */
+
+.lastersportsclothes .containerone .rowone .colone .text {
+  background-color: rgb(231, 231, 231);
+  padding: 20px;
+}
+
+.lastersportsclothes .containerone .rowone .colone .images {
+  display: flex;
+  margin-top: 80px;
+}
+
+.lastersportsclothes .containerone .rowone .colone .images img {
+  border: 1px black solid;
+  margin-right: 20px;
+  padding: 10px;
+  /* height: 100px;
+      width: 150px;
+
+      border-radius: 20%; */
+}
+
+.lastersportsclothes .containerone .rowone .colone h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.lastersportsclothes .containerone .rowone .colone h6 {
+
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.lastersportsclothes .containerone .rowone .colone h2 {
+  margin-top: 30px;
+}
+
+.lastersportsclothes .containerone .rowone .coltwo img {
+  height: 600px;
+}
+
+
+@media only screen and (max-width:720px) {
+
+
+
+  .lastersportsclothes .containerone .rowone .colone .images {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+}
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* finalsportsclothes  */
+
+.finalsportsclothes {
+  padding-top: 100px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 100px;
+}
+
+.finalsportsclothes .mySwiper {
+  /* padding-bottom: 100px; */
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border: 2px black solid;
+  width: 80%;
+}
+
+.finalsportsclothes .mySwiper img{
+ margin-top: 50px;
+}
+
+.finalsportsclothes .address {
+  background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+  padding: 10px 20px;
+  margin-left: 690px;
+  margin-top: -200px;
+  margin-bottom: 50px;
+  color: white;
+  border: 0px;
+}
+
+.finalsportsclothes .address:hover {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 162, 255));
+}
+
+.finalsportsclothes .control {
+  background-color: rgb(0, 162, 255);
+  padding: 30px;
+  font-size: 10px;
+  border-radius: 50%;
+  color: black;
+}
+
+@media only screen and (max-width:720px) {
+  .finalsportsclothes {
+    padding-top: 100px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 100px;
+  }
+
+  .finalsportsclothes .mySwiper {
+    padding-bottom: 100px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border: 2px black solid;
+    width: 90%;
+  }
+
+  .finalsportsclothes .mySwiper img{
+    margin-top: 50px;
+    width: 150px ;
+    height: 180px;
+    margin-right: 50px;
+   }
+
+  .finalsportsclothes .address {
+    margin-left: 175px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 80px;
+  }
+
+  .finalsportsclothes .address:hover {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 162, 255));
+  }
+
+  .finalsportsclothes .control {
+    background-color: rgb(0, 162, 255);
+    padding: 30px;
+    margin-top: -70px;
+    font-size: 10px;
+    border-radius: 50%;
+    color: black;
+  }
+}
+
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* Sportsaccessoriespages  */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+
+
+/* .homesportsaccessories */
+
+
+.Headsportsaccessories {
+  background-color: #ececec;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.Headsportsaccessories .containerone h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+.Headsportsaccessories .containerone .row .colone {
+  margin: 0px 50px;
+}
+
+.Headsportsaccessories .containerone .rowone .colone h5 {
+  background-image: url("/public/images/sportsaccessoires/headsportsaccessories/16d002c172b72cc396b31b7334952414.jpg");
+  background-size: cover;
+  padding-bottom: 300px;
+  margin-left: -16px;
+  margin-top: -16px;
+  margin-right: -16px;
+}
+
+.Headsportsaccessories .containerone .rowone .colone .text {
+  background-color: #dbdbdb;
+  width: 30%;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.Headsportsaccessories .containerone .rowone .colone h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.Headsportsaccessories .containerone .rowone .colone p {
+  color: #737272;
+}
+
+.Headsportsaccessories .containerone .row .coltwo {
+  margin: 0px 50px;
+}
+
+.Headsportsaccessories .containerone .rowone .coltwo h5 {
+  background-image: url("/public/images/sportsaccessoires/headsportsaccessories/71KiKP3ncoL._AC_SL1000_.jpg");
+  background-size: cover;
+  padding-bottom: 300px;
+  margin-left: -16px;
+  margin-top: -16px;
+  margin-right: -16px;
+}
+
+.Headsportsaccessories .containerone .rowone .coltwo .text {
+  background-color: #dbdbdb;
+  width: 30%;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.Headsportsaccessories .containerone .rowone .coltwo h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.Headsportsaccessories .containerone .rowone .coltwo p {
+  color: #737272;
+}
+
+.Headsportsaccessories .containerone .row .colthree {
+  margin: 0px 50px;
+}
+
+.Headsportsaccessories .containerone .rowone .colthree h5 {
+  background-image: url("/public/images/sportsaccessoires/headsportsaccessories/Untitle.jpg");
+  background-size: cover;
+  padding-bottom: 300px;
+  margin-left: -16px;
+  margin-top: -16px;
+  margin-right: -16px;
+}
+
+.Headsportsaccessories .containerone .rowone .colthree .text {
+  background-color: #dbdbdb;
+  width: 30%;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.Headsportsaccessories .containerone .rowone .colthree h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.Headsportsaccessories .containerone .rowone .colthree p {
+  color: #737272;
+}
+
+
+.Headsportsaccessories .containerone .rowone .card {
+  margin: 0px;
+  transition: transform 0.6s ease;
+}
+
+.Headsportsaccessories .containerone .rowone .card:hover {
+  filter: brightness(50%);
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width:720px) {
+
+  .Headsportsaccessories {
+    padding-top: 80px;
+  }
+
+  .Headsportsaccessories .containerone .row .colone {
+    margin-bottom: 50px;
+  }
+
+  .Headsportsaccessories .containerone .row .coltwo {
+    margin-bottom: 50px;
+  }
+
+}
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* Bodysportsaccessories  */
+
+
+
+.bodysportsaccessories {
+  background-color: white;
+  padding-bottom: 80px;
+  padding-top: 100px;
+}
+
+.bodysportsaccessories .containerone .rowone .colone h4 {
+  margin-bottom: 50px;
+}
+
+.bodysportsaccessories .containerone .rowone .colone .rowone .colone .box,
+.bodysportsaccessories .containerone .rowone .colone .rowone .coltwo .box,
+.bodysportsaccessories .containerone .rowone .colone .rowone .colthree .box {
+  border: 1px rgb(52, 52, 52) solid;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+  height: 180px;
+}
+
+.bodysportsaccessories .containerone .rowone .colone .rowone .colone .box h3,
+.bodysportsaccessories .containerone .rowone .colone .rowone .coltwo .box h3,
+.bodysportsaccessories .containerone .rowone .colone .rowone .colthree .box h3 {
+  font-size: 17px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+.bodysportsaccessories .containerone .rowone .colone .rowone .colone .box i,
+.bodysportsaccessories .containerone .rowone .colone .rowone .coltwo .box i,
+.bodysportsaccessories .containerone .rowone .colone .rowone .colthree .box i {
+  font-size: 13px;
+
+}
+
+
+.bodysportsaccessories .containerone .rowone .coltwoo {
+  border: 1px black solid;
+
+}
+
+.bodysportsaccessories .containerone .rowone .coltwoo h6 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #525252;
+  line-height: 27px;
+}
+
+.bodysportsaccessories .containerone .rowone .coltwoo h3 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.bodysportsaccessories .containerone .rowone .coltwoo .icon {
+  margin-left: 200px;
+}
+
+.bodysportsaccessories .containerone .rowone .coltwoo .icon h5 {
+  display: inline-block;
+  margin: 0px 27px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+
+
+@media only screen and (max-width:720px) {
+
+  .bodysportsaccessories {
+    padding-top: 50px;
+  }
+
+  .bodysportsaccessories .containerone .rowone .colone h4 {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* sectionsportsaccessories  */
+
+.sectionsportsaccessories .containerone .rowone .colone button {
+  margin-left: 400px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  padding: 10px 200px;
+  border: 0px;
+  background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+  color: white;
+  transition: transform 0.5s ease;
+}
+
+.sectionsportsaccessories .containerone .rowone .colone button:hover {
+
+  background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width:720px) {
+
+  .sectionsportsaccessories .containerone .rowone .colone button {
+    margin-left: 100px;
+    padding: 10px 100px;
+
+  }
+
+  .sectionsportsaccessories .containerone .rowone .colone button:hover {
+
+    background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+    transform: scale(1.2);
+  }
+}
+
+
+
+@media only screen and (max-width:720px) {
+
+  .sectionsportsaccessories .containerone .rowone .colone button {
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding: 10px 100px;
+    border: 0px;
+    background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+    color: white;
+    transition: transform 0.5s ease;
+  }
+
+  .sectionsportsaccessories .containerone .rowone .colone button:hover {
+
+    background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+    transform: scale(1.2);
+  }
+
+
+
+}
+
+
+
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* mainsportsaccessories  */
+
+.mainsportsaccessories {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.mainsportsaccessories .containerone .rowone .colone .row {
+  background-color: #dbdbdb;
+}
+
+.mainsportsaccessories .containerone .rowone .colone .row .colone h5 {
+  writing-mode: vertical-lr;
+  font-size: 19px;
+  margin: 20px;
+  color: #737272;
+}
+
+.mainsportsaccessories .containerone .rowone .colone .row .colthree {
+  text-align: center;
+  margin-top: 100px;
+  padding: 0px 40px;
+}
+
+.mainsportsaccessories .containerone .rowone .colone .row .colthree h3 {
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.mainsportsaccessories .containerone .rowone .colone .row .colthree h6 {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.mainsportsaccessories .containerone .rowone .colone .row .colthree button {
+  padding: 7px 17px;
+  border: 1px black solid;
+}
+
+.mainsportsaccessories .containerone .rowone .colone .row .colthree button:hover {
+  background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+  border: 0px;
+  color: white;
+}
+
+.mainsportsaccessories .containerone .rowone .coltwoo {
+  border: 1px black solid;
+}
+
+.mainsportsaccessories .containerone .rowone .coltwoo h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.mainsportsaccessories .containerone .rowone .coltwoo img {
+  height: 200px;
+  width: 200px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.mainsportsaccessories .containerone .rowone .coltwoo h6 {
+  text-align: center;
+  line-height: 25px;
+}
+
+.mainsportsaccessories .containerone .rowone .coltwoo button {
+  margin-left: 85px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 7px 17px;
+  border: 1px black solid;
+}
+
+.mainsportsaccessories .containerone .rowone .coltwoo button:hover {
+  background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+  color: white;
+}
+
+.mainsportsaccessories .containerone .rowone .colthree {
+  margin-top: -80px;
+}
+
+.mainsportsaccessories .containerone .rowone .colthree h3 {
+  margin-bottom: 20px;
+}
+
+.mainsportsaccessories .containerone .rowone .colthree img {
+  height: 400px;
+  width: 870px;
+}
+
+
+.mainsportsaccessories .containerone .rowone .colfour {
+  border: 1px black solid;
+  margin-top: 30px;
+}
+
+.mainsportsaccessories .containerone .rowone .colfour h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.mainsportsaccessories .containerone .rowone .colfour img {
+  height: 200px;
+  width: 200px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.mainsportsaccessories .containerone .rowone .colfour h6 {
+  text-align: center;
+  line-height: 25px;
+}
+
+.mainsportsaccessories .containerone .rowone .colfour button {
+  margin-left: 85px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 7px 17px;
+  border: 1px black solid;
+}
+
+.mainsportsaccessories .containerone .rowone .colfour button:hover {
+  background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+  color: white;
+  border: 0px;
+}
+
+
+@media only screen and (max-width:720px) {
+
+  .mainsportsaccessories {
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .mainsportsaccessories .containerone .rowone .colone .row {
+    background-color: #dbdbdb;
+  }
+
+  .mainsportsaccessories .containerone .rowone .colone .row .colone h5 {
+    writing-mode: initial;
+    margin: 20px 0px 20px 130px;
+    font-weight: 600;
+    color: #737272;
+  }
+
+  .mainsportsaccessories .containerone .rowone .colone .row .colthree {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 40px;
+  }
+
+  .mainsportsaccessories .containerone .rowone .colone .row .colthree h3 {
+    font-size: 20px;
+    font-weight: 600;
+
+  }
+
+  .mainsportsaccessories .containerone .rowone .colone .row .colthree h6 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .mainsportsaccessories .containerone .rowone .colone .row .colthree button {
+    padding: 7px 17px;
+    border: 0px black solid;
+  }
+
+  .mainsportsaccessories .containerone .rowone .colone .row .colthree button:hover {
+    background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+    border: 0px;
+    color: white;
+  }
+
+  .mainsportsaccessories .containerone .rowone .coltwoo {
+    border: 1px black solid;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .mainsportsaccessories .containerone .rowone .coltwoo h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-weight: 600;
+  }
+
+  .mainsportsaccessories .containerone .rowone .coltwoo img {
+    height: 200px;
+    width: 300px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+  }
+
+  .mainsportsaccessories .containerone .rowone .coltwoo h6 {
+    line-height: 25px;
+    width: 80%;
+    text-align: center;
+    margin-left: 40px;
+  }
+
+  .mainsportsaccessories .containerone .rowone .coltwoo button {
+    margin-left: 140px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 7px 17px;
+    border: 1px black solid;
+  }
+
+  .mainsportsaccessories .containerone .rowone .coltwoo button:hover {
+    background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+    color: white;
+  }
+
+  .mainsportsaccessories .containerone .rowone .colthree {
+    margin-top: -80px;
+  }
+
+  .mainsportsaccessories .containerone .rowone .colthree h3 {
+    margin-bottom: 20px;
+    font-size: 15px;
+    margin-top: 50px;
+  }
+
+  .mainsportsaccessories .containerone .rowone .colthree img {
+    height: 300px;
+    width: 460px;
+  }
+
+
+  .mainsportsaccessories .containerone .rowone .colfour {
+    border: 1px black solid;
+    margin-top: 30px;
+  }
+
+  .mainsportsaccessories .containerone .rowone .colfour h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-weight: 600;
+  }
+
+  .mainsportsaccessories .containerone .rowone .colfour img {
+    height: 200px;
+    width: 350px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+
+  .mainsportsaccessories .containerone .rowone .colfour h6 {
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .mainsportsaccessories .containerone .rowone .colfour button {
+    margin-left: 140px;
+    border: 1px black solid;
+  }
+
+  .mainsportsaccessories .containerone .rowone .colfour button:hover {
+    background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+    color: white;
+    border: 1px black solid;
+
+  }
+
+}
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* lastersportsaccessories  */
+
+
+.lastersportsaccessories {
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.lastersportsaccessories .containerone .rowone {
+  display: flex;
+}
+
+.lastersportsaccessories .containerone .rowone .colone {
+  padding-left: 90px;
+  background-color: #cfcfcf;
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: -40px;
+}
+
+.lastersportsaccessories .containerone .rowone .colone h2 {
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.lastersportsaccessories .containerone .rowone .colone h6 {
+  width: 46%;
+  margin-bottom: 30px;
+}
+
+.lastersportsaccessories .containerone .rowone .colone i {
+  width: 16%;
+}
+
+.lastersportsaccessories .containerone .rowone .coltwo {
+  display: flex;
+  margin-left: -170px;
+  margin-bottom: -100x;
+}
+
+.lastersportsaccessories .containerone .rowone .coltwo img {
+  margin: 0px 10px;
+  height: 400px;
+}
+
+
+
+@media only screen and (max-width:720px) {
+
+
+
+  .lastersportsaccessories .containerone .rowone {
+    display: flex;
+
+
+  }
+
+
+
+  .lastersportsaccessories .containerone .rowone .colone h2 {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: -80px;
+  }
+
+  .lastersportsaccessories .containerone .rowone .colone h6 {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: -70px;
+    display: none;
+  }
+
+  .lastersportsaccessories .containerone .rowone .colone i {
+    width: 100%;
+    margin-left: -70px;
+    display: none;
+  }
+
+  .lastersportsaccessories .containerone .rowone .coltwo {
+    display: flex;
+    margin-left: -70px;
+    margin-bottom: -40x;
+  }
+
+  .lastersportsaccessories .containerone .rowone .coltwo img {
+    margin: 0px 10px;
+    height: 250px;
+  }
+}
+
+
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* finalsportsaccessories  */
+.finalsportsaccessories {
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.finalsportsaccessories .mySwiper {
+  border: 2px black solid;
+  width: 80%;
+  ;
+}
+
+.finalsportsaccessories .address {
+  background-image: linear-gradient(to right, rgba(0, 162, 255), rgb(0, 0, 0));
+  padding: 10px 20px;
+  margin-left: 690px;
+  margin-top: -200px;
+  margin-bottom: 50px;
+  color: white;
+  border: 0px;
+}
+
+.finalsportsaccessories .address:hover {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 162, 255));
+}
+
+.finalsportsaccessories .mySwiper .imgone {
+  height: 400px;
+  margin-bottom: 70px;
+
+}
+
+@media only screen and (max-width:720px){
+  .finalsportsaccessories .mySwiper .imgone {
+    height: 200px;
+  
+  }
+  
+}
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* AllShoppingPage  */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+
+/* headshopping  */
+
+.headshopping .containerone .rowone .colone{
+  
+}
+.headshopping .containerone .rowone .colone  h1{
+text-align: center;
+margin-bottom: 100px;
+font-size: 80px;
+letter-spacing: 20px;
+margin-top: 60px;
+font-weight: 600;
+}
+
+.headshopping .containerone .rowone .colone .icons{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-bottom: 250px;
+}
+
+
+.headshopping .containerone .rowone .colone .icons img{
+background-color: #000;
+margin: 0px 20px;
+padding: 30px;
+
+}
+@media only screen and (max-width:720px){
+  .headshopping .containerone .rowone .colone  h1{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 80px;
+    letter-spacing: 20px;
+    margin-top: 60px;
+    }
+    
+    .headshopping .containerone .rowone .colone .icons{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      margin: auto;
+      margin-bottom: 250px;
+    }
+    
+    
+    .headshopping .containerone .rowone .colone .icons img{
+    background-color: #000;
+    margin: 0px 20px;
+    padding: 10px;
+    width: 200px;
+    height: 70px;
+    }
+}
+
+
+
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* shopping */
+
+.shopping .colone {
+  height: 450px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px 30px;
+}
+
+.shopping .colone h1 {
+  font-size: 25px;
+
+}
+
+.shopping .colone h2 {
+  font-weight: 300;
+}
+
+.shopping .colone h6 {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.shopping .colone .imge {
+  display: flex;
+  padding: 20px;
+  margin-top: 70px;
+}
+.shopping .colone .imge h4{
+  color: #000;
+  transition: transform 0.5s ease;
+}
+.shopping .colone .imge h4:hover{
+  color: rgba(0, 162, 255);
+  transform: scale(1.5);
+}
+
+.shopping .colone .price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopping .colone .stars {
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+.shopping .colone .stars i {
+  font-size: 10px;
+}
+
+@media only screen and (max-width:720px){
+  .shopping .colone {
+    height: 380px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 10px;
+  }
+}
+
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* shoppingtwo  */
+.shoppingtwo .colone {
+  height:500px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px 30px;
+}
+
+.shoppingtwo .colone h1 {
+  font-size: 25px;
+
+}
+
+.shoppingtwo .colone h2 {
+  font-weight: 300;
+}
+
+.shoppingtwo .colone h6 {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.shoppingtwo .colone .imge {
+  display: flex;
+  padding: 20px;
+  margin-top: 70px;
+}
+.shoppingtwo .colone .imge h4{
+  color: #000;
+  transition: transform 0.5s ease;
+}
+.shoppingtwo .colone .imge h4:hover{
+  color: rgba(0, 162, 255);
+  transform: scale(1.5);
+}
+
+.shoppingtwo .colone .price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shoppingtwo .colone .stars {
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+.shoppingtwo .colone .stars i {
+  font-size: 10px;
+}
+
+
+@media only screen and (max-width:720px){
+  .shoppingtwo .colone {
+    height: 420px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 10px;
+  }
+}
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* shoppingthree  */
+.shoppingthree .colone {
+  height:435px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px 30px;
+}
+
+.shoppingthree .colone h1 {
+  font-size: 25px;
+
+}
+
+.shoppingthree .colone h2 {
+  font-weight: 300;
+}
+
+.shoppingthree .colone h6 {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.shoppingthree .colone .imge {
+  display: flex;
+  padding: 20px;
+  margin-top: 70px;
+}
+.shoppingthree .colone .imge h4{
+  color: #000;
+  transition: transform 0.5s ease;
+}
+.shoppingthree .colone .imge h4:hover{
+  color: rgba(0, 162, 255);
+  transform: scale(1.5);
+}
+
+.shoppingthree .colone .price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shoppingthree .colone .stars {
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+.shoppingthree .colone .stars i {
+  font-size: 10px;
+}
+
+@media only screen and (max-width:720px){
+  .shoppingthree .colone {
+    height: 360px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 10px;
+  }
+}
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* shoppingfour  */
+.shoppingfour .colone {
+  height:420px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px 30px;
+}
+
+.shoppingfour .colone h1 {
+  font-size: 25px;
+
+}
+
+.shoppingfour .colone h2 {
+  font-weight: 300;
+}
+
+.shoppingfour .colone h6 {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.shoppingfour .colone .imge {
+  display: flex;
+  padding: 20px;
+  margin-top: 70px;
+}
+.shoppingfour .colone .imge h4{
+  color: #000;
+  transition: transform 0.5s ease;
+}
+.shoppingfour .colone .imge h4:hover{
+  color: rgba(0, 162, 255);
+  transform: scale(1.5);
+}
+
+.shoppingfour .colone .price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shoppingfour .colone .stars {
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+.shoppingfour .colone .stars i {
+  font-size: 10px;
+}
+
+
+@media only screen and (max-width:720px){
+  .shoppingfour .colone {
+    height:340px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 30px;
+  }
+}
+
+
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* thetable */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+
+.thetable table{
+  background-color: #000000;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 15px;
+  width: 15%;
+  text-align: center;
+  position: fixed; 
+  top: 107px; 
+  margin-left: 1293px;
+  border-bottom-left-radius: 30px;
+}
+.thetable table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ffffff;
+}
+
+
+.thetable .rowone .colone {
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.thetable .rowone .colone .row .coltwo{
+  text-align: center;
+  margin-top: 100px;
+}
+.thetable .rowone .colone .row .coltwo button{
+  padding: 10px 15px;
+  margin: 10px;
+  margin-top: 20px;
+  transition: transform 0.5s ease;
+  color: rgb(0, 0, 0);
+  border: 0px;
+  border: 1px black solid;
+}
+
+.thetable .rowone .colone .row .coltwo button:hover{
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 162, 255));
+  transform: scale(1.1);
+  color: white;
+}
+
+.vertical-line {
+  border-left: 1px solid #000; 
+  height: 300px;   
+  margin-top: -300px;
+}
+
+
+@media only screen and (max-width:720px) {
+  
+  .thetable table{
+    
+    font-size: 10px;
+    width: 28%;
+    text-align: center;
+    position: fixed; 
+    top: 107px; 
+    margin-left: 352px;
+    border-bottom-left-radius: 30px;
+  }
+  .thetable table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ffffff;
+  }
+
+
+}
+
+
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* Signuppages  */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+.Allsignuppages{
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background-image: url("/public/images/signup/Dark_520154.jpg"); */
+
+}
+
+
+.signup  {
+  width: 90%; 
+  margin: auto;
+}
+.signup .rowone {
+  border: 2px rgb(255, 255, 255) solid;  
+}
+.signup .colone {
+  background-image: url("/public/images/signup/Dark_520154.jpg");
+  background-size: cover;
+}
+.signup .colone h1{
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.signup .colone img{
+ width: 250px;
+ height: 250px;
+  margin-left: 320px;
+}
+
+
+.signup .coltwo {
+  border: 2px rgb(0, 0, 0) solid;  
+
+  background-color: white;
+  /* margin-top: 70px; */
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.signup .coltwo label{
+  font-weight: 700;
+}
+.signup .coltwo h5{
+  font-weight: 400;
+  font-weight: 5px;
+}
+.signup .coltwo h5 span{
+  font-weight: 700;
+}
+.signup .coltwo .form-group{
+  margin-bottom: 20px;
+}
+.signup .coltwo .form-control{
+  border: none; 
+  border-radius: 0; 
+  border-bottom: 2px solid #ced4da; 
+  padding: 5px 0;
+}
+.signup .coltwo .form-check{
+  margin-top: 40px;
+}
+.signup .coltwo button{
+  background-image: linear-gradient(to bottom, rgba(0, 162, 255), rgb(0, 0, 0));
+  padding: 5px 60px;
+  border-radius: 30px;
+}
+.signup .coltwo button:hover{
+  background-image: linear-gradient(to top, rgba(0, 162, 255), rgb(0, 0, 0));
+
+}
+.signup .coltwo .submit{
+  display: flex;
+  padding: 0px 20px 0px 0px ;
+  justify-content: space-between;
+}
+.signup .coltwo .submit a h5{
+  color: #000;
+}
+
+.signup .coltwo input::placeholder {
+  color: #c4c4c4; 
+}
+
+.signup .coltwo .icons{
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 120px;
+  margin-top: 50px;
+}
+
+.signup .coltwo .icons .facebook{
+  background-color: #0084ff;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+.signup .coltwo .icons .facebook:hover{
+  transform: scale(1.2);
+}
+.signup .coltwo .icons .goagle{
+  transition: transform 0.3s ease;
+
+  background-color: #ff3c00;
+  color: white;
+  padding: 10px ;
+  border-radius: 50%;
+}
+.signup .coltwo .icons .goagle:hover{
+  transform: scale(1.2);
+}
+.signup .coltwo .icons .twiter{
+  transition: transform 0.3s ease;
+
+  background-color: #00c8ff;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 50%;
+}
+.signup .coltwo .icons .twiter:hover{
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width:720px){
+  .Allsignuppages{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("/public/images/signup/Dark_520154.jpg");
+    /*filter: blur(0px); */
+  }
+  
+  
+  
+  .signup  {
+
+    padding: 60px 0; 
+
+  }
+  .signup .rowone {
+
+    border: 2px rgb(255, 255, 255) solid;  
+    border-bottom-right-radius:40px ;
+    border-bottom-left-radius:40px ;
+  }
+  .signup .colone {
+    background-image: url("/public/images/signup/Dark_520154.jpg");
+    background-size: cover;
+    /* display: none; */
+  }
+  .signup .colone h1{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+  .signup .colone img{
+   width: 250px;
+   height: 250px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+  }
+  
+  
+  .signup .coltwo {
+    border-radius: 40px;
+    background-color: white;
+    /* margin-top: 70px; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .signup .coltwo label{
+    font-weight: 700;
+  }
+  .signup .coltwo h5{
+    font-weight: 400;
+    font-weight: 5px;
+  }
+  .signup .coltwo h5 span{
+    font-weight: 700;
+  }
+  .signup .coltwo .form-group{
+    margin-bottom: 20px;
+  }
+  .signup .coltwo .form-control{
+    border: none; 
+    border-radius: 0; 
+    border-bottom: 2px solid #ced4da; 
+    padding: 5px 0;
+  }
+  .signup .coltwo .form-check{
+    margin-top: 40px;
+  }
+  .signup .coltwo button{
+    background-image: linear-gradient(to bottom, rgba(0, 162, 255), rgb(0, 0, 0));
+    padding: 5px 60px;
+    border-radius: 30px;
+  }
+  .signup .coltwo button:hover{
+    background-image: linear-gradient(to top, rgba(0, 162, 255), rgb(0, 0, 0));
+  
+  }
+  .signup .coltwo .submit{
+    display: flex;
+    padding: 0px 20px 0px 0px ;
+    justify-content: space-between;
+  }
+  .signup .coltwo .submit a h5{
+    color: #000;
+  }
+  
+  .signup .coltwo input::placeholder {
+    color: #c4c4c4; 
+  }
+  
+  .signup .coltwo .icons{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 120px;
+    margin-top: 50px;
+  }
+  
+  .signup .coltwo .icons .facebook{
+    background-color: #0084ff;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 50%;
+  }
+  .signup .coltwo .icons .goagle{
+    background-color: #ff4d00;
+    color: white;
+    padding: 10px ;
+    border-radius: 50%;
+  }
+  .signup .coltwo .icons .twiter{
+    background-color: #00c8ff;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 50%;
+  }
+}
+
